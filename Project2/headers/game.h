@@ -16,5 +16,5 @@ private:
 	Bird bird;
 	std::vector<Tube> tubeList;
 	bool tick(bool isMousePressed);
-	int counter = 0;
+	int counter;
 };

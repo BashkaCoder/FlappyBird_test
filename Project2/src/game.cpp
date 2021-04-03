@@ -7,7 +7,8 @@
 	Game::Game(SDL_Renderer* renderer) :
 		m_renderer(renderer),
 		tubeTexture(loadTexture(m_renderer, "tube.bmp")),
-		bird(m_renderer)
+		bird(m_renderer),
+		counter(0)
 	{
 		srand(time(0));
 	}
